@@ -1,0 +1,30 @@
+name: hiveexample
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    #by Yadiel
+  hive: any
+  hive_flutter: any
+  path_provider: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  #by Yadiel
+  hive_generator: any
+  build_runner: ^2.4.6
+
+flutter:
+
+  uses-material-design: true
+
+  
